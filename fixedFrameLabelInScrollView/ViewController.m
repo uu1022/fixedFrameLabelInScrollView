@@ -17,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //防止遍历scrollView'suviews出错 showIndicator=NO 不创建滚动条子视图
+    //防止遍历scrollView'suviews出错 showIndicator=NO 不创建滚动条子视图https://www.jianshu.com/p/d8f62ac4a429
+    
+    
+    
     self.scrollView.showsVerticalScrollIndicator = NO;
     self.scrollView.showsHorizontalScrollIndicator = NO;
     CGSize size = [UIScreen mainScreen].bounds.size;
